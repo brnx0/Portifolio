@@ -48,7 +48,23 @@ header{
     text-transform: uppercase;
     text-decoration: none;
 }
+.header-nav ul li a{
+    text-decoration: none;
+}
 .header-nav ul li a:hover{
     color: gold;
     text-decoration: none;
+
+}
+
+.header-social-media ul{
+    height: 100%;
+}
+
+.header-social-media ul li {
+    margin:0 10px;
+    list-style: none;
+}
+.header-social-media ul li a:hover{
+    color: rgb(212, 219, 211);
 }
