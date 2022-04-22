@@ -105,16 +105,20 @@ header{
                     /* Galeria */
 .gallery{
     height: 100%;
+    overflow: hidden;
+    width: 77%;
 
 }
 .gallery img{
-    width: 25%;
+    width: 70%;
 }
 .gallery img:hover{
     transition: 1s;
     top:-10px;box-shadow:0 2px 2px #666;
+    left: -50px;
     position: relative;
-    width: 35%;
+    width: 120%;
+   
 }
 .habIcones{
     
@@ -126,4 +130,8 @@ header{
 #bootstrap{
     width: 55px;
     margin: -10px;
+}
+.gallery div{
+    overflow: hidden;
+    
 }
