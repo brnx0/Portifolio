@@ -15,9 +15,9 @@
             <a href="#"><img class="logoNav logoNavHover" src="./img/logo-criativo.png" alt=""></a>
             <nav class="header-nav">
                 <ul class="flex-center">
-                    <li> <a href="#sectionPortifolio">SOBRE MIM</a> </li>
-                    <li> <a href="">PORTIFÓLIO</a> </li>
-                    <li> <a href="">FALE COMIGO</a> </li>
+                    <li> <a href="#linkSobre">SOBRE MIM</a> </li>
+                    <li> <a href="#linkPortifolio">PORTIFÓLIO</a> </li>
+                    <li> <a href="#linkFale">FALE COMIGO</a> </li>
                 </ul>
             </nav>
             <div class="header-social-media">
@@ -36,15 +36,15 @@
                 <img src="./img/foto-designer.jpg" alt="">
             </div>
             <div id="sobre">
-                <h1>Sobre mim</h1>
+                <h1 id="linkSobre">Sobre mim</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, placeat. Quas voluptatum eveniet vel nam iste animi cumque eligendi tempora, omnis ipsum explicabo quos quibusdam illum, reiciendis soluta, non eum?</p>
                 <p>
                 Quae, architecto? Labore sapiente modi, ipsa illo harum fugiat earum omnis sit explicabo ut expedita obcaecati rerum distinctio quia voluptatem, autem cupiditate dolorem! Corrupti distinctio repellat illo facere placeat dignissimos?</p>
             </div>
         </div>
-    </section class="sectionPortifolio">
+    </section>
     <section>
-        <h1 class="flex-center">Portifólio</h1>
+        <h1 class="flex-center" id="linkPortifolio">Portifólio</h1>
         <div class="container flex-center gallery">
              <div class="">
                  <img src="./img/img-01-p.jpg" alt="">
@@ -74,7 +74,7 @@
     </section>
     <section class="habilidades">
         <div class="flex-center container">
-            <h1 class="flex-center">Habilidades</h1>
+            <h1 class="flex-center" id="linkHabilidades">Habilidades</h1>
         </div>
         <div class="container habIcones">
             <img src="./icons/html.svg" alt="">
@@ -86,16 +86,44 @@
       
     </section>
 
-    <!-- Implementação de um formulario teste -->
+    <section class="faleComigo">
+        <h2 class="flex-center" id="linkFale">Fale Comigo</h2>
+        <div class="flex-center container">
+            <div class="dadosContato">
+                <h2>Dados Pessoais</h2>
+                <p>Telefone:</p>
+                <p>E-mail</p>
+                <H2>Créditos</H2>
+            </div>
+            <div class="form">
+                <h2>Formulario de contato</h2>
+                <p>Preencha o formulário abaixo e aguarde o meu contato: </p>
+                <form action="" method="">
+                    <p>
+                        <input type="text" name="name" placeholder="Digite o seu nome">
+                    </p>
+                    <p>
+                        <input type="email" name="subject" placeholder="Digite seu email" id="">
+                    </p>
+                    <p>
+                        <input type="text" name="phone" placeholder="Informe seu numero">
+                    </p>
+                    <p>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Deixe seu recado "></textarea>
 
-    <!-- <form action="" class="flex-center"> 
-        <H2>Nome</H2>
-        <input type="text" name="Nome" placeholder="Nome aqui" id="">
-        <h2>Email</h2>
-        <input type="text" placeholder="Email"><br>
-        <input type="submit" value="" onclick="enviar()"> 
-
-    </form> -->
-
+                    </p>
+                    <p>
+                        <input type="submit" name="" value="ENVIAR" class="submitButton">
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            Portifolio do Breno. &copy; 2022
+        </div>
+    </footer>
 </body>
 </html> 
+-
