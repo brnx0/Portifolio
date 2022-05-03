@@ -126,7 +126,7 @@ header{
 }
 
                     /* Galeria */
-.gallery{
+/* .gallery{
     height: 100%;
     overflow: hidden;
     width: 77%;
@@ -142,7 +142,72 @@ header{
     position: relative;
     width: 120%;
    
+} */
+.gallery{
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
 }
+.galleryCard{
+    flex-wrap: wrap;
+    width: 25%;
+    height: 400px;
+    flex-direction: column;
+    margin: 20px;
+    border: #000 solid 1px;
+    justify-content: center;
+}
+.galleryImg{
+    background-size: 140%;
+    background-position: center;
+    overflow: hidden;
+    background-color: rgb(92, 89, 89);
+    background-blend-mode: multiply;
+
+}
+.galleryImg:hover{
+    background-size: 160%;
+    transition: 1.5s;
+    background-blend-mode: multiply;
+    background-color: white;
+}
+.btnGallery{
+    border: rgb(53, 52, 52) solid 1px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    color: rgb(61, 61, 61);
+}
+.btnGallery:hover{
+    background-color: rgba(92, 89, 89, 0.562)
+}
+
+
+
+#card-1{
+    background-image:url(../img/img-01-p.jpg);
+    
+}
+#card-2{
+    background-image:url(../img/img-02-p.jpg);
+ 
+}
+#card-3{
+    background-image:url(../img/img-03-a.jpg);
+    
+}
+#card-4{
+    background-image:url(../img/img-04-p.jpg);
+    
+}
+#card-5{
+    background-image:url(../img/img-05-p.jpg);
+    
+}
+#card-6{
+    background-image:url(../img/img-06-p.jpg);
+    
+}
+
 .habIcones{
     
     display: flex;
