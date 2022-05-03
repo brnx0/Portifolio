@@ -69,7 +69,7 @@ header{
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto 0 auto;
     padding: 10px 0;
 }
@@ -173,10 +173,22 @@ header{
 .submitButton{
     background-color: #4169E1;
     color: white;
+    width: 250px;
+    border-radius: 20px 20px;
 
 }
 
 .submitButton:hover{
     background-color: #1970;
 
+}
+/* Responsividade */
+@media screen and (max-width: 800px) {
+   body{
+
+   } 
+}
+
+@media screen and (max-width:600px){
+    
 }
